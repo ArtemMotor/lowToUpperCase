@@ -1,0 +1,151 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  background-color: #fffff0;
+  width: 1500px;
+  height: 1500px;
+  border: 2px solid gainsboro;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-left: 50px;
+}
+
+h4 {
+  padding-left: 50px;
+}
+
+.about {
+  padding-left: 50px;
+  width: 750px;
+  line-height: 1.5;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.user-input-div {
+  margin: 0px 0px 20px 0px;
+  padding-left: 50px;
+}
+
+#user-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 0px 10px 0px;
+  font-size: 16px;
+}
+
+.user-upper-string-div {
+  display: none;
+  padding-left: 50px;
+}
+
+#upper-user-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 0px 15px 0px;
+  font-size: 16px;
+}
+
+.convert-to-upper-case-btn {
+  display: inline;
+  font-size: 16px;
+}
+
+.clear-user-text-btn {
+  display: none;
+  font-size: 16px;
+}
+
+.copy-btn {
+  display: block;
+  font-size: 16px;
+}
+
+.fade-out {
+  display: none;
+  animation: fadeOut ease 4s;
+  -webkit-animation: fadeOut ease 4s;
+  -moz-animation: fadeOut ease 4s;
+  -o-animation: fadeOut ease 4s;
+  -ms-animation: fadeOut ease 4s;
+}
+
+.copy-alert {
+  color: green;
+}
+
+footer {
+  padding-top: 200px;
+}
+
+nav {
+  text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.social-icons li {
+  margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons li img {
+  width: 30px;
+  height: 30px;
+}
+
+li:last-child {
+  margin: 0px;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
